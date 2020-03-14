@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NameNotary DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>NameNotary Token DAPP</h1>
+
+    <hr>
+
+    <br>
+      <h1>Save a Name</h1>
+      <br><label for="starName">Name:</label><input type="text" id="Name"></input>
+      <br><label for="starId">ID:</label><input type="text" id="Id"></input>
+      <br><br><button id="createStar" onclick="App.createStar()">Save Name</button>
+      <br>
+      <hr>
+      <br>
+      <h1>Look up a Name</h1>
+      <br><label for="name">Name ID:</label><input type="text" id="lookid"></input>
+      <br><br><button onclick="App.lookUp()">Look Up a Name</button>
+      <hr>
+      <br>
+      <span id="status"></span>
+      <br>
+    <script src="index.js"></script>
+  </body>
+</html>
